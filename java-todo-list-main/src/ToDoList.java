@@ -12,6 +12,7 @@ public class ToDoList {
         Task(String description) {
             this.description = description;
             this.isDone = false;
+            System.out.println("Print1");
         }
 
         @Override
